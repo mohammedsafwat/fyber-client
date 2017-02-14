@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02C3675CB6351A7D2B521A6A /* Pods_FyberClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF0A3440273D9C95A07B86F /* Pods_FyberClient.framework */; };
+		3B3012EC1E461C870082C6A1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B3012EA1E461C870082C6A1 /* Roboto-Bold.ttf */; };
+		3B3012ED1E461C870082C6A1 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B3012EB1E461C870082C6A1 /* Roboto-Regular.ttf */; };
+		3B3012EF1E462DFB0082C6A1 /* UIAlertsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3012EE1E462DFB0082C6A1 /* UIAlertsHelper.swift */; };
+		3B4DBBE51E4C547700ED3279 /* ListOffersPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DBBE41E4C547700ED3279 /* ListOffersPresenterTests.swift */; };
+		3B4DBBE71E4C78B000ED3279 /* ListOffersInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DBBE61E4C78B000ED3279 /* ListOffersInteractorTests.swift */; };
+		3B4DBBEC1E4D93C500ED3279 /* ListOffersWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DBBEB1E4D93C500ED3279 /* ListOffersWorkerTests.swift */; };
+		3B4DBBEF1E4E133600ED3279 /* OffersAPIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DBBEE1E4E133600ED3279 /* OffersAPIManagerTests.swift */; };
+		3B5E29B11E3EF62B0082822B /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E29B01E3EF62B0082822B /* Offer.swift */; };
+		3B5E29B31E3F16F80082822B /* ManagedOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E29B21E3F16F80082822B /* ManagedOffer.swift */; };
+		3B5E29B51E3F1BC30082822B /* ManagedOffer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E29B41E3F1BC30082822B /* ManagedOffer+CoreDataProperties.swift */; };
+		3B5E29B81E3F204A0082822B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E29B71E3F204A0082822B /* Constants.swift */; };
+		3B5E29BA1E3F28430082822B /* ActivityIndicatorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E29B91E3F28430082822B /* ActivityIndicatorHelper.swift */; };
+		3B8AD36F1E50F37F002A7275 /* ListOffersViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AD36E1E50F37F002A7275 /* ListOffersViewControllerTests.swift */; };
+		3B8AD3751E51DECE002A7275 /* AppConfigurationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AD3741E51DECE002A7275 /* AppConfigurationsViewController.swift */; };
+		3B8AD3771E51DEF5002A7275 /* AppConfigurationsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AD3761E51DEF5002A7275 /* AppConfigurationsConfigurator.swift */; };
+		3B8AD3791E523D4C002A7275 /* AppConfigurationsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AD3781E523D4C002A7275 /* AppConfigurationsModels.swift */; };
+		3B8AD37B1E523F2D002A7275 /* AppConfigurationsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AD37A1E523F2D002A7275 /* AppConfigurationsRouter.swift */; };
+		3B8AD37D1E52DFD6002A7275 /* AppConfigurationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AD37C1E52DFD6002A7275 /* AppConfigurationsInteractor.swift */; };
+		3B8AD37F1E530302002A7275 /* AppConfigurationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AD37E1E530302002A7275 /* AppConfigurationsPresenter.swift */; };
+		3BC9DEB81E41CCD000ED8DDA /* ListOffersConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DEB11E41CCD000ED8DDA /* ListOffersConfigurator.swift */; };
+		3BC9DEB91E41CCD000ED8DDA /* ListOffersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DEB21E41CCD000ED8DDA /* ListOffersInteractor.swift */; };
+		3BC9DEBA1E41CCD000ED8DDA /* ListOffersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DEB31E41CCD000ED8DDA /* ListOffersModels.swift */; };
+		3BC9DEBB1E41CCD000ED8DDA /* ListOffersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DEB41E41CCD000ED8DDA /* ListOffersPresenter.swift */; };
+		3BC9DEBC1E41CCD000ED8DDA /* ListOffersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DEB51E41CCD000ED8DDA /* ListOffersRouter.swift */; };
+		3BC9DEBD1E41CCD000ED8DDA /* ListOffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DEB61E41CCD000ED8DDA /* ListOffersViewController.swift */; };
+		3BC9DEC11E41CCE400ED8DDA /* OfferTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9DEC01E41CCE400ED8DDA /* OfferTableViewCell.xib */; };
+		3BC9DEC41E41CCF500ED8DDA /* OfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DEC31E41CCF500ED8DDA /* OfferTableViewCell.swift */; };
+		3BC9DEC71E41CD6000ED8DDA /* ListOffersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DEC61E41CD6000ED8DDA /* ListOffersWorker.swift */; };
+		3BC9DECA1E41CECA00ED8DDA /* OffersAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DEC91E41CECA00ED8DDA /* OffersAPIManager.swift */; };
+		3BC9DECD1E41D02300ED8DDA /* OffersDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9DECC1E41D02300ED8DDA /* OffersDataDownloader.swift */; };
+		3BE318751E4B0AEA00A1C353 /* ListOffersViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE318741E4B0AEA00A1C353 /* ListOffersViewControllerTests.swift */; };
 		3BF79E401E3C5AC600B6A163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF79E3F1E3C5AC500B6A163 /* AppDelegate.swift */; };
-		3BF79E421E3C5AC600B6A163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF79E411E3C5AC600B6A163 /* ViewController.swift */; };
 		3BF79E451E3C5AC600B6A163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF79E431E3C5AC600B6A163 /* Main.storyboard */; };
 		3BF79E481E3C5AC600B6A163 /* FyberClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BF79E461E3C5AC600B6A163 /* FyberClient.xcdatamodeld */; };
 		3BF79E4A1E3C5AC600B6A163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF79E491E3C5AC600B6A163 /* Assets.xcassets */; };
 		3BF79E4D1E3C5AC600B6A163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF79E4B1E3C5AC600B6A163 /* LaunchScreen.storyboard */; };
-		3BF79E581E3C5AC600B6A163 /* FyberClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF79E571E3C5AC600B6A163 /* FyberClientTests.swift */; };
-		3BF79E631E3C5AC600B6A163 /* FyberClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF79E621E3C5AC600B6A163 /* FyberClientUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +64,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22A9E71BB54740FEC2ADE842 /* Pods-FyberClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyberClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FyberClient/Pods-FyberClient.debug.xcconfig"; sourceTree = "<group>"; };
+		3B3012EA1E461C870082C6A1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "Resources/Fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3B3012EB1E461C870082C6A1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "Resources/Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3B3012EE1E462DFB0082C6A1 /* UIAlertsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIAlertsHelper.swift; path = Helpers/UIAlertsHelper.swift; sourceTree = "<group>"; };
+		3B4DBBE41E4C547700ED3279 /* ListOffersPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersPresenterTests.swift; path = Scenes/ListOffersScene/ListOffersPresenterTests.swift; sourceTree = "<group>"; };
+		3B4DBBE61E4C78B000ED3279 /* ListOffersInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersInteractorTests.swift; path = Scenes/ListOffersScene/ListOffersInteractorTests.swift; sourceTree = "<group>"; };
+		3B4DBBEB1E4D93C500ED3279 /* ListOffersWorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersWorkerTests.swift; path = Workers/ListOffersWorkerTests.swift; sourceTree = "<group>"; };
+		3B4DBBEE1E4E133600ED3279 /* OffersAPIManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OffersAPIManagerTests.swift; path = Services/OffersAPIManagerTests.swift; sourceTree = "<group>"; };
+		3B5E29B01E3EF62B0082822B /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Offer.swift; path = Models/Offer.swift; sourceTree = "<group>"; };
+		3B5E29B21E3F16F80082822B /* ManagedOffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManagedOffer.swift; path = Models/ManagedOffer.swift; sourceTree = "<group>"; };
+		3B5E29B41E3F1BC30082822B /* ManagedOffer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ManagedOffer+CoreDataProperties.swift"; path = "Models/ManagedOffer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B5E29B71E3F204A0082822B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Helpers/Constants.swift; sourceTree = "<group>"; };
+		3B5E29B91E3F28430082822B /* ActivityIndicatorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorHelper.swift; path = Helpers/ActivityIndicatorHelper.swift; sourceTree = "<group>"; };
+		3B8AD36E1E50F37F002A7275 /* ListOffersViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersViewControllerTests.swift; path = Scenes/ListOffersScene/ListOffersViewControllerTests.swift; sourceTree = "<group>"; };
+		3B8AD3741E51DECE002A7275 /* AppConfigurationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfigurationsViewController.swift; path = Scenes/AppConfigurationsScene/AppConfigurationsViewController.swift; sourceTree = "<group>"; };
+		3B8AD3761E51DEF5002A7275 /* AppConfigurationsConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfigurationsConfigurator.swift; path = Scenes/AppConfigurationsScene/AppConfigurationsConfigurator.swift; sourceTree = "<group>"; };
+		3B8AD3781E523D4C002A7275 /* AppConfigurationsModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfigurationsModels.swift; path = Scenes/AppConfigurationsScene/AppConfigurationsModels.swift; sourceTree = "<group>"; };
+		3B8AD37A1E523F2D002A7275 /* AppConfigurationsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfigurationsRouter.swift; path = Scenes/AppConfigurationsScene/AppConfigurationsRouter.swift; sourceTree = "<group>"; };
+		3B8AD37C1E52DFD6002A7275 /* AppConfigurationsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfigurationsInteractor.swift; path = Scenes/AppConfigurationsScene/AppConfigurationsInteractor.swift; sourceTree = "<group>"; };
+		3B8AD37E1E530302002A7275 /* AppConfigurationsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfigurationsPresenter.swift; path = Scenes/AppConfigurationsScene/AppConfigurationsPresenter.swift; sourceTree = "<group>"; };
+		3BC9DEB11E41CCD000ED8DDA /* ListOffersConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersConfigurator.swift; path = Scenes/ListOffersScene/ListOffersConfigurator.swift; sourceTree = "<group>"; };
+		3BC9DEB21E41CCD000ED8DDA /* ListOffersInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersInteractor.swift; path = Scenes/ListOffersScene/ListOffersInteractor.swift; sourceTree = "<group>"; };
+		3BC9DEB31E41CCD000ED8DDA /* ListOffersModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersModels.swift; path = Scenes/ListOffersScene/ListOffersModels.swift; sourceTree = "<group>"; };
+		3BC9DEB41E41CCD000ED8DDA /* ListOffersPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersPresenter.swift; path = Scenes/ListOffersScene/ListOffersPresenter.swift; sourceTree = "<group>"; };
+		3BC9DEB51E41CCD000ED8DDA /* ListOffersRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersRouter.swift; path = Scenes/ListOffersScene/ListOffersRouter.swift; sourceTree = "<group>"; };
+		3BC9DEB61E41CCD000ED8DDA /* ListOffersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersViewController.swift; path = Scenes/ListOffersScene/ListOffersViewController.swift; sourceTree = "<group>"; };
+		3BC9DEC01E41CCE400ED8DDA /* OfferTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OfferTableViewCell.xib; path = Scenes/ListOffersScene/NibFiles/OfferTableViewCell.xib; sourceTree = "<group>"; };
+		3BC9DEC31E41CCF500ED8DDA /* OfferTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfferTableViewCell.swift; path = Scenes/ListOffersScene/ViewFiles/OfferTableViewCell.swift; sourceTree = "<group>"; };
+		3BC9DEC61E41CD6000ED8DDA /* ListOffersWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersWorker.swift; path = Scenes/ListOffersScene/Workers/ListOffersWorker.swift; sourceTree = "<group>"; };
+		3BC9DEC91E41CECA00ED8DDA /* OffersAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OffersAPIManager.swift; path = Scenes/ListOffersScene/Services/OffersAPIManager.swift; sourceTree = "<group>"; };
+		3BC9DECC1E41D02300ED8DDA /* OffersDataDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OffersDataDownloader.swift; path = Scenes/ListOffersScene/Services/ServicesHelperClasses/OffersDataDownloader.swift; sourceTree = "<group>"; };
+		3BE318741E4B0AEA00A1C353 /* ListOffersViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOffersViewControllerTests.swift; path = Scenes/ListOffersScene/ListOffersViewControllerTests.swift; sourceTree = "<group>"; };
 		3BF79E3C1E3C5AC500B6A163 /* FyberClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyberClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF79E3F1E3C5AC500B6A163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BF79E411E3C5AC600B6A163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BF79E441E3C5AC600B6A163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BF79E471E3C5AC600B6A163 /* FyberClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FyberClient.xcdatamodel; sourceTree = "<group>"; };
 		3BF79E491E3C5AC600B6A163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BF79E4C1E3C5AC600B6A163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BF79E4E1E3C5AC600B6A163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF79E531E3C5AC600B6A163 /* FyberClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyberClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BF79E571E3C5AC600B6A163 /* FyberClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FyberClientTests.swift; sourceTree = "<group>"; };
 		3BF79E591E3C5AC600B6A163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF79E5E1E3C5AC600B6A163 /* FyberClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyberClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BF79E621E3C5AC600B6A163 /* FyberClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FyberClientUITests.swift; sourceTree = "<group>"; };
 		3BF79E641E3C5AC600B6A163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E941D0C8239BA9AD4C8C5E85 /* Pods-FyberClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyberClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-FyberClient/Pods-FyberClient.release.xcconfig"; sourceTree = "<group>"; };
+		EDF0A3440273D9C95A07B86F /* Pods_FyberClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FyberClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C3675CB6351A7D2B521A6A /* Pods_FyberClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +137,164 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B3012E41E461C4A0082C6A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B3012E51E461C520082C6A1 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B3012E51E461C520082C6A1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3B3012EA1E461C870082C6A1 /* Roboto-Bold.ttf */,
+				3B3012EB1E461C870082C6A1 /* Roboto-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		3B4DBBE81E4D932700ED3279 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DBBEB1E4D93C500ED3279 /* ListOffersWorkerTests.swift */,
+			);
+			name = Workers;
+			sourceTree = "<group>";
+		};
+		3B4DBBED1E4E130E00ED3279 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DBBEE1E4E133600ED3279 /* OffersAPIManagerTests.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		3B5E29AF1E3E504B0082822B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B5E29B01E3EF62B0082822B /* Offer.swift */,
+				3B5E29B21E3F16F80082822B /* ManagedOffer.swift */,
+				3B5E29B41E3F1BC30082822B /* ManagedOffer+CoreDataProperties.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3B5E29B61E3F20320082822B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3B5E29B71E3F204A0082822B /* Constants.swift */,
+				3B5E29B91E3F28430082822B /* ActivityIndicatorHelper.swift */,
+				3B3012EE1E462DFB0082C6A1 /* UIAlertsHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		3B8AD36C1E50F349002A7275 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3B8AD36D1E50F34F002A7275 /* ListOffersScene */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		3B8AD36D1E50F34F002A7275 /* ListOffersScene */ = {
+			isa = PBXGroup;
+			children = (
+				3B8AD36E1E50F37F002A7275 /* ListOffersViewControllerTests.swift */,
+			);
+			name = ListOffersScene;
+			sourceTree = "<group>";
+		};
+		3B8AD3731E51DEA7002A7275 /* AppConfigurationsScene */ = {
+			isa = PBXGroup;
+			children = (
+				3B8AD3761E51DEF5002A7275 /* AppConfigurationsConfigurator.swift */,
+				3B8AD3741E51DECE002A7275 /* AppConfigurationsViewController.swift */,
+				3B8AD3781E523D4C002A7275 /* AppConfigurationsModels.swift */,
+				3B8AD37A1E523F2D002A7275 /* AppConfigurationsRouter.swift */,
+				3B8AD37C1E52DFD6002A7275 /* AppConfigurationsInteractor.swift */,
+				3B8AD37E1E530302002A7275 /* AppConfigurationsPresenter.swift */,
+			);
+			name = AppConfigurationsScene;
+			sourceTree = "<group>";
+		};
+		3BC9DE9C1E41CAFD00ED8DDA /* ListOffersScene */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9DEB11E41CCD000ED8DDA /* ListOffersConfigurator.swift */,
+				3BC9DEB21E41CCD000ED8DDA /* ListOffersInteractor.swift */,
+				3BC9DEB31E41CCD000ED8DDA /* ListOffersModels.swift */,
+				3BC9DEB41E41CCD000ED8DDA /* ListOffersPresenter.swift */,
+				3BC9DEB51E41CCD000ED8DDA /* ListOffersRouter.swift */,
+				3BC9DEB61E41CCD000ED8DDA /* ListOffersViewController.swift */,
+				3BC9DEC51E41CD0900ED8DDA /* Workers */,
+				3BC9DEC81E41CE4700ED8DDA /* Services */,
+				3BC9DEC21E41CCED00ED8DDA /* ViewFiles */,
+				3BC9DEBF1E41CCD700ED8DDA /* NibFiles */,
+			);
+			name = ListOffersScene;
+			sourceTree = "<group>";
+		};
+		3BC9DEBF1E41CCD700ED8DDA /* NibFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9DEC01E41CCE400ED8DDA /* OfferTableViewCell.xib */,
+			);
+			name = NibFiles;
+			sourceTree = "<group>";
+		};
+		3BC9DEC21E41CCED00ED8DDA /* ViewFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9DEC31E41CCF500ED8DDA /* OfferTableViewCell.swift */,
+			);
+			name = ViewFiles;
+			sourceTree = "<group>";
+		};
+		3BC9DEC51E41CD0900ED8DDA /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9DEC61E41CD6000ED8DDA /* ListOffersWorker.swift */,
+			);
+			name = Workers;
+			sourceTree = "<group>";
+		};
+		3BC9DEC81E41CE4700ED8DDA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9DECB1E41CFFC00ED8DDA /* ServicesHelperClasses */,
+				3BC9DEC91E41CECA00ED8DDA /* OffersAPIManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		3BC9DECB1E41CFFC00ED8DDA /* ServicesHelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9DECC1E41D02300ED8DDA /* OffersDataDownloader.swift */,
+			);
+			name = ServicesHelperClasses;
+			sourceTree = "<group>";
+		};
+		3BE318721E4B0A1700A1C353 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3BE318731E4B0AA900A1C353 /* ListOffersScene */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		3BE318731E4B0AA900A1C353 /* ListOffersScene */ = {
+			isa = PBXGroup;
+			children = (
+				3BE318741E4B0AEA00A1C353 /* ListOffersViewControllerTests.swift */,
+				3B4DBBE41E4C547700ED3279 /* ListOffersPresenterTests.swift */,
+				3B4DBBE61E4C78B000ED3279 /* ListOffersInteractorTests.swift */,
+			);
+			name = ListOffersScene;
+			sourceTree = "<group>";
+		};
 		3BF79E331E3C5AC500B6A163 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +302,8 @@
 				3BF79E561E3C5AC600B6A163 /* FyberClientTests */,
 				3BF79E611E3C5AC600B6A163 /* FyberClientUITests */,
 				3BF79E3D1E3C5AC500B6A163 /* Products */,
+				AF88212A5B425CDED88F28F5 /* Pods */,
+				89C1C42C74735465BAEB4215 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +320,11 @@
 		3BF79E3E1E3C5AC500B6A163 /* FyberClient */ = {
 			isa = PBXGroup;
 			children = (
+				3B3012E41E461C4A0082C6A1 /* Resources */,
+				3B5E29B61E3F20320082822B /* Helpers */,
+				3B5E29AF1E3E504B0082822B /* Models */,
+				3BF79E701E3C5B2800B6A163 /* Scenes */,
 				3BF79E3F1E3C5AC500B6A163 /* AppDelegate.swift */,
-				3BF79E411E3C5AC600B6A163 /* ViewController.swift */,
 				3BF79E431E3C5AC600B6A163 /* Main.storyboard */,
 				3BF79E491E3C5AC600B6A163 /* Assets.xcassets */,
 				3BF79E4B1E3C5AC600B6A163 /* LaunchScreen.storyboard */,
@@ -113,7 +337,9 @@
 		3BF79E561E3C5AC600B6A163 /* FyberClientTests */ = {
 			isa = PBXGroup;
 			children = (
-				3BF79E571E3C5AC600B6A163 /* FyberClientTests.swift */,
+				3B4DBBED1E4E130E00ED3279 /* Services */,
+				3B4DBBE81E4D932700ED3279 /* Workers */,
+				3BE318721E4B0A1700A1C353 /* Scenes */,
 				3BF79E591E3C5AC600B6A163 /* Info.plist */,
 			);
 			path = FyberClientTests;
@@ -122,10 +348,36 @@
 		3BF79E611E3C5AC600B6A163 /* FyberClientUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3BF79E621E3C5AC600B6A163 /* FyberClientUITests.swift */,
+				3B8AD36C1E50F349002A7275 /* Scenes */,
 				3BF79E641E3C5AC600B6A163 /* Info.plist */,
 			);
 			path = FyberClientUITests;
+			sourceTree = "<group>";
+		};
+		3BF79E701E3C5B2800B6A163 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3B8AD3731E51DEA7002A7275 /* AppConfigurationsScene */,
+				3BC9DE9C1E41CAFD00ED8DDA /* ListOffersScene */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		89C1C42C74735465BAEB4215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF0A3440273D9C95A07B86F /* Pods_FyberClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF88212A5B425CDED88F28F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22A9E71BB54740FEC2ADE842 /* Pods-FyberClient.debug.xcconfig */,
+				E941D0C8239BA9AD4C8C5E85 /* Pods-FyberClient.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +387,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BF79E671E3C5AC600B6A163 /* Build configuration list for PBXNativeTarget "FyberClient" */;
 			buildPhases = (
+				94BABE5920758C6F81120527 /* [CP] Check Pods Manifest.lock */,
 				3BF79E381E3C5AC500B6A163 /* Sources */,
 				3BF79E391E3C5AC500B6A163 /* Frameworks */,
 				3BF79E3A1E3C5AC500B6A163 /* Resources */,
+				79A7AC37E38A2FCD2FAF93C2 /* [CP] Embed Pods Frameworks */,
+				F590B5979425C7A90A8C5D7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,7 +490,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3012ED1E461C870082C6A1 /* Roboto-Regular.ttf in Resources */,
+				3BC9DEC11E41CCE400ED8DDA /* OfferTableViewCell.xib in Resources */,
 				3BF79E4D1E3C5AC600B6A163 /* LaunchScreen.storyboard in Resources */,
+				3B3012EC1E461C870082C6A1 /* Roboto-Bold.ttf in Resources */,
 				3BF79E4A1E3C5AC600B6A163 /* Assets.xcassets in Resources */,
 				3BF79E451E3C5AC600B6A163 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +515,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79A7AC37E38A2FCD2FAF93C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FyberClient/Pods-FyberClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94BABE5920758C6F81120527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F590B5979425C7A90A8C5D7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FyberClient/Pods-FyberClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BF79E381E3C5AC500B6A163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC9DEC71E41CD6000ED8DDA /* ListOffersWorker.swift in Sources */,
+				3BC9DEBB1E41CCD000ED8DDA /* ListOffersPresenter.swift in Sources */,
 				3BF79E481E3C5AC600B6A163 /* FyberClient.xcdatamodeld in Sources */,
-				3BF79E421E3C5AC600B6A163 /* ViewController.swift in Sources */,
+				3B8AD3791E523D4C002A7275 /* AppConfigurationsModels.swift in Sources */,
+				3B8AD37D1E52DFD6002A7275 /* AppConfigurationsInteractor.swift in Sources */,
+				3B8AD3751E51DECE002A7275 /* AppConfigurationsViewController.swift in Sources */,
+				3BC9DECD1E41D02300ED8DDA /* OffersDataDownloader.swift in Sources */,
+				3B8AD3771E51DEF5002A7275 /* AppConfigurationsConfigurator.swift in Sources */,
+				3B5E29B31E3F16F80082822B /* ManagedOffer.swift in Sources */,
+				3BC9DEBC1E41CCD000ED8DDA /* ListOffersRouter.swift in Sources */,
+				3B5E29B81E3F204A0082822B /* Constants.swift in Sources */,
+				3BC9DEB81E41CCD000ED8DDA /* ListOffersConfigurator.swift in Sources */,
+				3BC9DEC41E41CCF500ED8DDA /* OfferTableViewCell.swift in Sources */,
+				3B5E29B11E3EF62B0082822B /* Offer.swift in Sources */,
+				3B3012EF1E462DFB0082C6A1 /* UIAlertsHelper.swift in Sources */,
 				3BF79E401E3C5AC600B6A163 /* AppDelegate.swift in Sources */,
+				3BC9DEBD1E41CCD000ED8DDA /* ListOffersViewController.swift in Sources */,
+				3BC9DECA1E41CECA00ED8DDA /* OffersAPIManager.swift in Sources */,
+				3B8AD37B1E523F2D002A7275 /* AppConfigurationsRouter.swift in Sources */,
+				3BC9DEB91E41CCD000ED8DDA /* ListOffersInteractor.swift in Sources */,
+				3B5E29BA1E3F28430082822B /* ActivityIndicatorHelper.swift in Sources */,
+				3BC9DEBA1E41CCD000ED8DDA /* ListOffersModels.swift in Sources */,
+				3B8AD37F1E530302002A7275 /* AppConfigurationsPresenter.swift in Sources */,
+				3B5E29B51E3F1BC30082822B /* ManagedOffer+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +599,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF79E581E3C5AC600B6A163 /* FyberClientTests.swift in Sources */,
+				3B4DBBEC1E4D93C500ED3279 /* ListOffersWorkerTests.swift in Sources */,
+				3B4DBBE51E4C547700ED3279 /* ListOffersPresenterTests.swift in Sources */,
+				3B4DBBE71E4C78B000ED3279 /* ListOffersInteractorTests.swift in Sources */,
+				3BE318751E4B0AEA00A1C353 /* ListOffersViewControllerTests.swift in Sources */,
+				3B4DBBEF1E4E133600ED3279 /* OffersAPIManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +611,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF79E631E3C5AC600B6A163 /* FyberClientUITests.swift in Sources */,
+				3B8AD36F1E50F37F002A7275 /* ListOffersViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +668,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -387,6 +719,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -414,7 +747,9 @@
 		};
 		3BF79E681E3C5AC600B6A163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A9E71BB54740FEC2ADE842 /* Pods-FyberClient.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FyberClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,7 +761,9 @@
 		};
 		3BF79E691E3C5AC600B6A163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E941D0C8239BA9AD4C8C5E85 /* Pods-FyberClient.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FyberClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -509,6 +846,7 @@
 				3BF79E691E3C5AC600B6A163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF79E6A1E3C5AC600B6A163 /* Build configuration list for PBXNativeTarget "FyberClientTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +855,7 @@
 				3BF79E6C1E3C5AC600B6A163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF79E6D1E3C5AC600B6A163 /* Build configuration list for PBXNativeTarget "FyberClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +864,7 @@
 				3BF79E6F1E3C5AC600B6A163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

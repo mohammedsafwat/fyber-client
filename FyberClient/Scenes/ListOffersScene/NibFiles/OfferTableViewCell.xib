@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OfferTableViewCell" id="kT0-KD-Vp2" userLabel="OfferTableViewCell" customClass="OfferTableViewCell" customModule="FyberClient" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kT0-KD-Vp2" id="3G9-YB-pfS">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="123"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tLM-gq-dvM" userLabel="ParentView">
+                        <rect key="frame" x="8" y="0.0" width="359" height="115"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wP1-Cr-IAH" userLabel="OfferImageView">
+                                <rect key="frame" x="8" y="8" width="98" height="99"/>
+                                <accessibility key="accessibilityConfiguration" identifier="OfferImageView">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97.5" id="Iiv-iW-8Iy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2P-DU-qt3" userLabel="OfferTitleLabel">
+                                <rect key="frame" x="126" y="10" width="228" height="20"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label  Label Label Label Label Label Label Label Label Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCZ-Jd-ayI" userLabel="OfferTeaserLabel">
+                                <rect key="frame" x="126" y="30" width="228" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="oha-dR-gmy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ec6-qG-pv0" userLabel="SeparatorView">
+                                <rect key="frame" x="126" y="73" width="223" height="1"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ZKJ-fV-CQE"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ijp-MD-1kg" userLabel="OfferPayoutAmountLabel">
+                                <rect key="frame" x="159" y="84.5" width="28" height="19"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PayoutIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Zqk-mU-icR" userLabel="OfferPayoutIconImageView">
+                                <rect key="frame" x="120" y="76" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="hd8-eK-Zep"/>
+                                    <constraint firstAttribute="width" constant="35" id="ko4-Nx-AjA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wP1-Cr-IAH" secondAttribute="bottom" constant="8" id="414-R5-b7X"/>
+                            <constraint firstAttribute="trailing" secondItem="Ec6-qG-pv0" secondAttribute="trailing" constant="10" id="6a9-7U-Xao"/>
+                            <constraint firstItem="wP1-Cr-IAH" firstAttribute="top" secondItem="tLM-gq-dvM" secondAttribute="top" constant="8" id="9Ea-3l-HZR"/>
+                            <constraint firstItem="o2P-DU-qt3" firstAttribute="top" secondItem="tLM-gq-dvM" secondAttribute="top" constant="10" id="CXf-ix-pbF"/>
+                            <constraint firstItem="MCZ-Jd-ayI" firstAttribute="leading" secondItem="o2P-DU-qt3" secondAttribute="leading" id="J35-Fg-duR"/>
+                            <constraint firstItem="MCZ-Jd-ayI" firstAttribute="trailing" secondItem="o2P-DU-qt3" secondAttribute="trailing" id="Lel-LJ-n1S"/>
+                            <constraint firstAttribute="trailing" secondItem="o2P-DU-qt3" secondAttribute="trailing" constant="5" id="RU1-7R-3qH"/>
+                            <constraint firstItem="wP1-Cr-IAH" firstAttribute="leading" secondItem="tLM-gq-dvM" secondAttribute="leading" constant="8" id="VJd-he-Hgd"/>
+                            <constraint firstItem="MCZ-Jd-ayI" firstAttribute="top" secondItem="o2P-DU-qt3" secondAttribute="bottom" id="ZA1-IV-8Sf"/>
+                            <constraint firstItem="Zqk-mU-icR" firstAttribute="leading" secondItem="wP1-Cr-IAH" secondAttribute="trailing" constant="14" id="ZeB-l9-1Da"/>
+                            <constraint firstItem="o2P-DU-qt3" firstAttribute="leading" secondItem="wP1-Cr-IAH" secondAttribute="trailing" constant="20" id="bhr-lL-8k9"/>
+                            <constraint firstItem="Ijp-MD-1kg" firstAttribute="leading" secondItem="Zqk-mU-icR" secondAttribute="trailing" constant="4" id="dRe-dU-3Fr"/>
+                            <constraint firstItem="Ec6-qG-pv0" firstAttribute="top" secondItem="MCZ-Jd-ayI" secondAttribute="bottom" constant="3" id="hbs-Nz-ANz"/>
+                            <constraint firstItem="Zqk-mU-icR" firstAttribute="top" secondItem="Ec6-qG-pv0" secondAttribute="bottom" constant="2" id="m7p-bZ-snG"/>
+                            <constraint firstItem="Ijp-MD-1kg" firstAttribute="centerY" secondItem="Zqk-mU-icR" secondAttribute="centerY" id="pbs-bL-kKy"/>
+                            <constraint firstItem="Ec6-qG-pv0" firstAttribute="leading" secondItem="o2P-DU-qt3" secondAttribute="leading" id="xqA-Af-gaY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="tLM-gq-dvM" secondAttribute="trailing" constant="8" id="EnV-Pi-HDb"/>
+                    <constraint firstAttribute="bottom" secondItem="tLM-gq-dvM" secondAttribute="bottom" constant="8" id="GKq-bF-xUT"/>
+                    <constraint firstItem="tLM-gq-dvM" firstAttribute="top" secondItem="3G9-YB-pfS" secondAttribute="top" id="MSx-pU-JiX"/>
+                    <constraint firstItem="tLM-gq-dvM" firstAttribute="leading" secondItem="3G9-YB-pfS" secondAttribute="leading" constant="8" id="akK-nF-rSJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="offerImageView" destination="wP1-Cr-IAH" id="0VJ-4a-Xhi"/>
+                <outlet property="offerPayoutAmountLabel" destination="Ijp-MD-1kg" id="SEk-3b-FDc"/>
+                <outlet property="offerPayoutIconImageView" destination="Zqk-mU-icR" id="cUW-8Y-EEA"/>
+                <outlet property="offerTeaserLabel" destination="MCZ-Jd-ayI" id="Qdy-TD-odT"/>
+                <outlet property="offerTitleLabel" destination="o2P-DU-qt3" id="jBC-aT-TMy"/>
+                <outlet property="parentView" destination="tLM-gq-dvM" id="1EY-vb-ErR"/>
+                <outlet property="separatorView" destination="Ec6-qG-pv0" id="IOE-gK-jH5"/>
+            </connections>
+            <point key="canvasLocation" x="-66.5" y="59"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="PayoutIcon" width="256" height="256"/>
+    </resources>
+</document>

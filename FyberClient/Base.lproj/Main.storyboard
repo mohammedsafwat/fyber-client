@@ -1,26 +1,210 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eBE-6F-EFa">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--ListOffersViewController-->
+        <scene sceneID="F91-mF-ZiS">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <tableViewController storyboardIdentifier="ListOffersViewController" title="ListOffersViewController" id="fhW-tb-a82" customClass="ListOffersViewController" customModule="FyberClient" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="F2d-ZX-78l">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="RP6-RI-KWP">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RP6-RI-KWP" id="sGW-dV-QJY">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fhW-tb-a82" id="CjM-fy-4o6"/>
+                            <outlet property="delegate" destination="fhW-tb-a82" id="u7y-a5-GEO"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="i64-eo-fIb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ejN-sT-4sZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2538" y="52"/>
+        </scene>
+        <!--AppConfigurationsViewControllerScene-->
+        <scene sceneID="wOg-CQ-AyE">
+            <objects>
+                <viewController id="MnB-Dq-Svk" userLabel="AppConfigurationsViewControllerScene" customClass="AppConfigurationsViewController" customModule="FyberClient" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wrm-9R-uPK"/>
+                        <viewControllerLayoutGuide type="bottom" id="gKE-6G-xhY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oDv-mI-uLG">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fyber Client" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0Z-oe-JiD" userLabel="FyberClientLabel">
+                                <rect key="frame" x="132.5" y="146" width="110" height="25"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="21"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Application ID" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vqe-tW-PvI" userLabel="ApplicationIDTextField" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="55" y="221" width="265" height="50"/>
+                                <color key="tintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="ApplicationIDTextField"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ibf-nF-k6k"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="foregroundColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="MnB-Dq-Svk" id="0Kg-14-jl2"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User ID" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lTc-Je-U32" userLabel="UserIDTextField" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="55" y="281" width="265" height="50"/>
+                                <color key="tintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="UserIDTextField"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Z7C-Xz-akZ"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="MnB-Dq-Svk" id="JYh-WZ-LVs"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Security Token" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="PEk-Ev-6qa" userLabel="SecurityTokenTextField" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="55" y="341" width="265" height="50"/>
+                                <color key="tintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="SecurityTokenTextField"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Gqi-Pb-TWJ"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="MnB-Dq-Svk" id="T28-Lw-Ct0"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1du-jC-8oV" userLabel="FetchOffersButton">
+                                <rect key="frame" x="55" y="416" width="265" height="38"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="FetchOffersButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="L1D-5e-3aO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Fetch Offers"/>
+                                <connections>
+                                    <action selector="fetchOffersButtonTapped:" destination="MnB-Dq-Svk" eventType="touchUpInside" id="X9T-nq-WlX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1du-jC-8oV" firstAttribute="leading" secondItem="PEk-Ev-6qa" secondAttribute="leading" id="1E6-cW-ITd"/>
+                            <constraint firstItem="1du-jC-8oV" firstAttribute="centerX" secondItem="oDv-mI-uLG" secondAttribute="centerX" id="1xF-LO-Jwa"/>
+                            <constraint firstItem="lTc-Je-U32" firstAttribute="leading" secondItem="oDv-mI-uLG" secondAttribute="leading" constant="55" id="C8g-oq-16I"/>
+                            <constraint firstItem="I0Z-oe-JiD" firstAttribute="centerX" secondItem="oDv-mI-uLG" secondAttribute="centerX" id="Me8-n7-Em7"/>
+                            <constraint firstItem="lTc-Je-U32" firstAttribute="trailing" secondItem="vqe-tW-PvI" secondAttribute="trailing" id="Pil-WL-uRP"/>
+                            <constraint firstItem="lTc-Je-U32" firstAttribute="centerY" secondItem="oDv-mI-uLG" secondAttribute="centerY" constant="4.5" id="Q8G-Sb-h7y"/>
+                            <constraint firstAttribute="trailing" secondItem="lTc-Je-U32" secondAttribute="trailing" constant="55" id="U5C-5I-CXL"/>
+                            <constraint firstItem="vqe-tW-PvI" firstAttribute="top" secondItem="I0Z-oe-JiD" secondAttribute="bottom" constant="50" id="W1l-O1-BIF"/>
+                            <constraint firstItem="PEk-Ev-6qa" firstAttribute="centerX" secondItem="oDv-mI-uLG" secondAttribute="centerX" id="WHf-Eq-tms"/>
+                            <constraint firstItem="lTc-Je-U32" firstAttribute="centerX" secondItem="oDv-mI-uLG" secondAttribute="centerX" id="XdY-RD-czo"/>
+                            <constraint firstItem="PEk-Ev-6qa" firstAttribute="top" secondItem="lTc-Je-U32" secondAttribute="bottom" constant="10" id="Xon-bk-erC"/>
+                            <constraint firstItem="1du-jC-8oV" firstAttribute="trailing" secondItem="PEk-Ev-6qa" secondAttribute="trailing" id="YK1-jF-ESP"/>
+                            <constraint firstItem="PEk-Ev-6qa" firstAttribute="leading" secondItem="vqe-tW-PvI" secondAttribute="leading" id="aiN-gR-jsJ"/>
+                            <constraint firstItem="PEk-Ev-6qa" firstAttribute="trailing" secondItem="vqe-tW-PvI" secondAttribute="trailing" id="cdq-6G-cF6"/>
+                            <constraint firstItem="lTc-Je-U32" firstAttribute="leading" secondItem="vqe-tW-PvI" secondAttribute="leading" id="dgl-IG-0D6"/>
+                            <constraint firstItem="vqe-tW-PvI" firstAttribute="centerX" secondItem="oDv-mI-uLG" secondAttribute="centerX" id="r2F-DW-1iH"/>
+                            <constraint firstItem="lTc-Je-U32" firstAttribute="top" secondItem="vqe-tW-PvI" secondAttribute="bottom" constant="10" id="rGu-lL-663"/>
+                            <constraint firstItem="1du-jC-8oV" firstAttribute="top" secondItem="PEk-Ev-6qa" secondAttribute="bottom" constant="25" id="uBn-1D-FcY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XKo-b2-g9Z"/>
+                    <connections>
+                        <outlet property="applicationIDTextField" destination="vqe-tW-PvI" id="4f0-18-MDZ"/>
+                        <outlet property="securityTokenTextField" destination="PEk-Ev-6qa" id="GdW-4d-7cn"/>
+                        <outlet property="userIDTextField" destination="lTc-Je-U32" id="VZ7-Qr-WTN"/>
+                        <segue destination="fhW-tb-a82" kind="show" identifier="ListOffersViewControllerSegue" id="4ja-5F-GRT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qqs-uE-20h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1720.8" y="51.724137931034484"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="agt-pe-cLS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eBE-6F-EFa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="bTQ-5R-GkG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MnB-Dq-Svk" kind="relationship" relationship="rootViewController" id="Axn-rd-nKa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8LZ-ha-eag" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="781.60000000000002" y="51.724137931034484"/>
         </scene>
     </scenes>
 </document>
